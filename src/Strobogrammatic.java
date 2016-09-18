@@ -1,4 +1,4 @@
-public class Solution {
+public class Strobogrammatic {
     public boolean isStrobogrammatic(String num) {
         int[] rotated = new int[]{0, 1, -1, -1, -1, -1, 9, -1, 8, 6};
         int length = num.toCharArray().length;

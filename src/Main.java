@@ -1,11 +1,10 @@
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
-        MovingAverage movingAverage = new MovingAverage(3);
-        System.out.println(movingAverage.next(1));
-        System.out.println(movingAverage.next(2));
-        System.out.println(movingAverage.next(3));
-        System.out.println(movingAverage.next(4));
-        System.out.println(movingAverage.next(100));
+        PhoneNumberLetter solution = new PhoneNumberLetter();
+        List<String> strings = solution.letterCombinations("2");
+        strings.forEach(System.out::println);
     }
 }
