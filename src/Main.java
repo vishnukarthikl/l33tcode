@@ -1,11 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-
-        Solution solution = new Solution();
-        System.out.println(solution.isStrobogrammatic("6"));
-        System.out.println(solution.isStrobogrammatic("69"));
-        System.out.println(solution.isStrobogrammatic("8"));
-        System.out.println(solution.isStrobogrammatic("659"));
+        MovingAverage movingAverage = new MovingAverage(3);
+        System.out.println(movingAverage.next(1));
+        System.out.println(movingAverage.next(2));
+        System.out.println(movingAverage.next(3));
+        System.out.println(movingAverage.next(4));
+        System.out.println(movingAverage.next(100));
     }
 }
